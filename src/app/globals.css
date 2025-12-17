@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  --mint: #7ed6c2;
+  --mint-light: #b8e6e6;
+  --purple: #7b5cd6;
+  --purple-dark: #5a3fb8;
+  --gold: #d4a017;
+  --silver: #a8a8a8;
+  --bronze: #cd7f32;
+  --bg-light: #e8f4f4;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Comic Sans MS", "Marker Felt", cursive, sans-serif;
+  background-color: var(--bg-light);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
