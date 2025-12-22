@@ -100,31 +100,31 @@ export default function Home() {
                 <div
                   className="absolute"
                   style={{
-                    top: "45px",
+                    top: "5%",
                     left: "50%",
-                    transform: "translateX(-50%)"
+                    transform: "translateX(-50%)",
+                    width: "28%"
                   }}
                 >
                   <img 
                     src="/top1.png" 
                     alt="Top 1"
-                    className="relative"
+                    className="relative w-full h-auto"
                     style={{
-                      width: "150px",
-                      height: "200px",
                       objectFit: "cover",
-                      borderRadius: "4px"
+                      borderRadius: "4px",
+                      aspectRatio: "3/4"
                     }}
                   />
                   <span 
                     className="absolute inline-flex items-center justify-center rounded-full font-bold text-white"
                     style={{
                       backgroundColor: "#7b5cd6",
-                      width: "32px",
-                      height: "32px",
-                      fontSize: "14px",
-                      top: "-8px",
-                      right: "-8px",
+                      width: "clamp(24px, 6vw, 32px)",
+                      height: "clamp(24px, 6vw, 32px)",
+                      fontSize: "clamp(11px, 2.5vw, 14px)",
+                      top: "-4%",
+                      right: "-4%",
                       border: "2px solid #fff"
                     }}
                   >
@@ -136,30 +136,30 @@ export default function Home() {
                 <div
                   className="absolute"
                   style={{
-                    top: "180px",
-                    right: "60px"
+                    top: "20%",
+                    right: "9%",
+                    width: "22%"
                   }}
                 >
                   <img 
                     src="/top2.png" 
                     alt="Top 2"
-                    className="relative"
+                    className="relative w-full h-auto"
                     style={{
-                      width: "120px",
-                      height: "170px",
                       objectFit: "cover",
-                      borderRadius: "4px"
+                      borderRadius: "4px",
+                      aspectRatio: "120/170"
                     }}
                   />
                   <span 
                     className="absolute inline-flex items-center justify-center rounded-full font-bold text-white"
                     style={{
                       backgroundColor: "#7b5cd6",
-                      width: "32px",
-                      height: "32px",
-                      fontSize: "14px",
-                      top: "-8px",
-                      right: "-8px",
+                      width: "clamp(24px, 6vw, 32px)",
+                      height: "clamp(24px, 6vw, 32px)",
+                      fontSize: "clamp(11px, 2.5vw, 14px)",
+                      top: "-4%",
+                      right: "-4%",
                       border: "2px solid #fff"
                     }}
                   >
@@ -171,30 +171,30 @@ export default function Home() {
                 <div
                   className="absolute"
                   style={{
-                    top: "130px",
-                    left: "55px"
+                    top: "14.5%",
+                    left: "8.5%",
+                    width: "24%"
                   }}
                 >
                   <img 
                     src="/3.png" 
                     alt="Top 3"
-                    className="relative"
+                    className="relative w-full h-auto"
                     style={{
-                      width: "130px",
-                      height: "180px",
                       objectFit: "cover",
-                      borderRadius: "4px"
+                      borderRadius: "4px",
+                      aspectRatio: "13/18"
                     }}
                   />
                   <span 
                     className="absolute inline-flex items-center justify-center rounded-full font-bold text-white"
                     style={{
                       backgroundColor: "#7b5cd6",
-                      width: "32px",
-                      height: "32px",
-                      fontSize: "14px",
-                      top: "-8px",
-                      right: "-8px",
+                      width: "clamp(24px, 6vw, 32px)",
+                      height: "clamp(24px, 6vw, 32px)",
+                      fontSize: "clamp(11px, 2.5vw, 14px)",
+                      top: "-4%",
+                      right: "-4%",
                       border: "2px solid #fff"
                     }}
                   >
