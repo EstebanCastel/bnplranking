@@ -1,29 +1,33 @@
 export default function Home() {
   const tableData = [
     { position: 4, nombre: "natalyramirez@habi.co", negocios: 2, cierres: 2 },
-    { position: 5, nombre: "khaterinecanon@habi.co", negocios: 5, cierres: 1 },
-    { position: 6, nombre: "danithmartinez@habi.co", negocios: 2, cierres: 1 },
-    { position: 7, nombre: "erikagonzalez@habi.co", negocios: 5, cierres: 1 },
-    { position: 8, nombre: "jeferssonromero@habi.co", negocios: 1, cierres: 1 },
-    { position: 9, nombre: "nataliamartinez@habi.co", negocios: 1, cierres: 0 },
-    { position: 10, nombre: "yessicasanchez@habi.co", negocios: 2, cierres: 0 },
-    { position: 11, nombre: "geffreyramos@habi.co", negocios: 2, cierres: 0 },
-    { position: 12, nombre: "juanrincon@habi.co", negocios: 2, cierres: 0 },
-    { position: 13, nombre: "mariarodriguez@habi.co", negocios: 1, cierres: 0 },
-    { position: 14, nombre: "ingriddiaz@habi.co", negocios: 1, cierres: 0 },
-    { position: 15, nombre: "danielsantoyo@habi.co", negocios: 3, cierres: 0 },
-    { position: 16, nombre: "vivianabautista@habi.co", negocios: 2, cierres: 0 },
-    { position: 17, nombre: "davidcontreras@habi.co", negocios: 3, cierres: 0 },
-    { position: 18, nombre: "nancycadavid@habi.co", negocios: 6, cierres: 0 },
-    { position: 19, nombre: "leidygomez@habi.co", negocios: 3, cierres: 0 },
-    { position: 20, nombre: "hectorduque@habi.co", negocios: 1, cierres: 0 },
-    { position: 21, nombre: "joserios@habi.co", negocios: 2, cierres: 0 },
-    { position: 22, nombre: "josuahortua@habi.co", negocios: 2, cierres: 0 },
-    { position: 23, nombre: "santiagocarreno@habi.co", negocios: 1, cierres: 0 },
-    { position: 24, nombre: "alexanderhernandez@habi.co", negocios: 2, cierres: 0 },
-    { position: 25, nombre: "jacquelinerodriguez@habi.co", negocios: 2, cierres: 0 },
-    { position: 26, nombre: "saracasallas@habi.co", negocios: 1, cierres: 0 },
-    { position: 27, nombre: "paolatenorio@habi.co", negocios: 3, cierres: 0 },
+    { position: 5, nombre: "erikagonzalez@habi.co", negocios: 5, cierres: 2 },
+    { position: 6, nombre: "leidygomez@habi.co", negocios: 4, cierres: 1 },
+    { position: 7, nombre: "jeferssonromero@habi.co", negocios: 1, cierres: 1 },
+    { position: 8, nombre: "danithmartinez@habi.co", negocios: 2, cierres: 1 },
+    { position: 9, nombre: "ingriddiaz@habi.co", negocios: 2, cierres: 1 },
+    { position: 10, nombre: "juanrincon@habi.co", negocios: 2, cierres: 1 },
+    { position: 11, nombre: "juanvanegas@habi.co", negocios: 1, cierres: 1 },
+    { position: 12, nombre: "joserios@habi.co", negocios: 2, cierres: 1 },
+    { position: 13, nombre: "khaterinecanon@habi.co", negocios: 7, cierres: 1 },
+    { position: 14, nombre: "josuahortua@habi.co", negocios: 2, cierres: 0 },
+    { position: 15, nombre: "vivianabautista@habi.co", negocios: 2, cierres: 0 },
+    { position: 16, nombre: "hectorduque@habi.co", negocios: 2, cierres: 0 },
+    { position: 17, nombre: "geffreyramos@habi.co", negocios: 2, cierres: 0 },
+    { position: 18, nombre: "mariarodriguez@habi.co", negocios: 2, cierres: 0 },
+    { position: 19, nombre: "alexandramurillo@habi.co", negocios: 1, cierres: 0 },
+    { position: 20, nombre: "alexanderhernandez@habi.co", negocios: 2, cierres: 0 },
+    { position: 21, nombre: "nancycadavid@habi.co", negocios: 5, cierres: 0 },
+    { position: 22, nombre: "jhonycardenas@habi.co", negocios: 2, cierres: 0 },
+    { position: 23, nombre: "auradiaz@habi.co", negocios: 1, cierres: 0 },
+    { position: 24, nombre: "danielsantoyo@habi.co", negocios: 5, cierres: 0 },
+    { position: 25, nombre: "davidcontreras@habi.co", negocios: 3, cierres: 0 },
+    { position: 26, nombre: "nataliamartinez@habi.co", negocios: 1, cierres: 0 },
+    { position: 27, nombre: "santiagocarreno@habi.co", negocios: 1, cierres: 0 },
+    { position: 28, nombre: "jacquelinerodriguez@habi.co", negocios: 1, cierres: 0 },
+    { position: 29, nombre: "paolatenorio@habi.co", negocios: 3, cierres: 0 },
+    { position: 30, nombre: "saracasallas@habi.co", negocios: 1, cierres: 0 },
+    { position: 31, nombre: "yessicasanchez@habi.co", negocios: 2, cierres: 0 },
   ];
 
   return (
@@ -194,7 +198,7 @@ export default function Home() {
                       border: "2px solid #fff"
                     }}
                   >
-                    2
+                    3
                   </span>
                 </div>
               </div>
