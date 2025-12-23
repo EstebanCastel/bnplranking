@@ -1,33 +1,22 @@
 export default function Home() {
   const tableData = [
-    { position: 4, nombre: "natalyramirez@habi.co", negocios: 2, cierres: 2 },
-    { position: 5, nombre: "erikagonzalez@habi.co", negocios: 5, cierres: 2 },
-    { position: 6, nombre: "leidygomez@habi.co", negocios: 4, cierres: 1 },
-    { position: 7, nombre: "jeferssonromero@habi.co", negocios: 1, cierres: 1 },
-    { position: 8, nombre: "danithmartinez@habi.co", negocios: 2, cierres: 1 },
-    { position: 9, nombre: "ingriddiaz@habi.co", negocios: 2, cierres: 1 },
-    { position: 10, nombre: "juanrincon@habi.co", negocios: 2, cierres: 1 },
-    { position: 11, nombre: "juanvanegas@habi.co", negocios: 1, cierres: 1 },
-    { position: 12, nombre: "joserios@habi.co", negocios: 2, cierres: 1 },
-    { position: 13, nombre: "khaterinecanon@habi.co", negocios: 7, cierres: 1 },
-    { position: 14, nombre: "josuahortua@habi.co", negocios: 2, cierres: 0 },
-    { position: 15, nombre: "vivianabautista@habi.co", negocios: 2, cierres: 0 },
-    { position: 16, nombre: "hectorduque@habi.co", negocios: 2, cierres: 0 },
-    { position: 17, nombre: "geffreyramos@habi.co", negocios: 2, cierres: 0 },
-    { position: 18, nombre: "mariarodriguez@habi.co", negocios: 2, cierres: 0 },
-    { position: 19, nombre: "alexandramurillo@habi.co", negocios: 1, cierres: 0 },
-    { position: 20, nombre: "alexanderhernandez@habi.co", negocios: 2, cierres: 0 },
-    { position: 21, nombre: "nancycadavid@habi.co", negocios: 5, cierres: 0 },
-    { position: 22, nombre: "jhonycardenas@habi.co", negocios: 2, cierres: 0 },
-    { position: 23, nombre: "auradiaz@habi.co", negocios: 1, cierres: 0 },
-    { position: 24, nombre: "danielsantoyo@habi.co", negocios: 5, cierres: 0 },
-    { position: 25, nombre: "davidcontreras@habi.co", negocios: 3, cierres: 0 },
-    { position: 26, nombre: "nataliamartinez@habi.co", negocios: 1, cierres: 0 },
-    { position: 27, nombre: "santiagocarreno@habi.co", negocios: 1, cierres: 0 },
-    { position: 28, nombre: "jacquelinerodriguez@habi.co", negocios: 1, cierres: 0 },
-    { position: 29, nombre: "paolatenorio@habi.co", negocios: 3, cierres: 0 },
-    { position: 30, nombre: "saracasallas@habi.co", negocios: 1, cierres: 0 },
-    { position: 31, nombre: "yessicasanchez@habi.co", negocios: 2, cierres: 0 },
+    { position: 3, nombre: "lizarojas@habi.co", cierres: 2 },
+    { position: 4, nombre: "erikagonzalez@habi.co", cierres: 2 },
+    { position: 4, nombre: "natalyramirez@habi.co", cierres: 2 },
+    { position: 5, nombre: "yessicasanchez@habi.co", cierres: 1 },
+    { position: 6, nombre: "paolatenorio@habi.co", cierres: 1 },
+    { position: 7, nombre: "nancycadavid@habi.co", cierres: 1 },
+    { position: 8, nombre: "leidygomez@habi.co", cierres: 1 },
+    { position: 9, nombre: "khaterinecanon@habi.co", cierres: 1 },
+    { position: 10, nombre: "juanvanegas@habi.co", cierres: 1 },
+    { position: 11, nombre: "juanrincon@habi.co", cierres: 1 },
+    { position: 12, nombre: "joserios@habi.co", cierres: 1 },
+    { position: 13, nombre: "jeferssonromero@habi.co", cierres: 1 },
+    { position: 14, nombre: "ingriddiaz@habi.co", cierres: 1 },
+    { position: 15, nombre: "geffreyramos@habi.co", cierres: 1 },
+    { position: 16, nombre: "danithmartinez@habi.co", cierres: 1 },
+    { position: 17, nombre: "alexandramurillo@habi.co", cierres: 1 },
+    { position: 18, nombre: "alexanderhernandez@habi.co", cierres: 1 },
   ];
 
   return (
@@ -90,25 +79,24 @@ export default function Home() {
               <div className="relative w-full">
                 {/* Base image */}
                 <img 
-                  src="/top3.png" 
-                  alt="Top 3 BNPL" 
+                  src="/Gemini_Generated_Image_tzk8mjtzk8mjtzk8.png" 
+                  alt="Top BNPL" 
                   className="w-full h-auto block"
                   style={{ maxHeight: "92vh", objectFit: "contain" }}
                 />
                 
-                {/* Top 1 - Centro (medalla dorada) */}
+                {/* Puesto 4 - Centro (erikagonzalez) */}
                 <div
                   className="absolute"
                   style={{
                     top: "5%",
-                    left: "50%",
-                    transform: "translateX(-50%)",
+                    left: "35%",
                     width: "28%"
                   }}
                 >
                   <img 
                     src="/top1.png" 
-                    alt="Top 1"
+                    alt="Puesto 4 - erikagonzalez"
                     className="relative w-full h-auto"
                     style={{
                       objectFit: "cover",
@@ -119,7 +107,7 @@ export default function Home() {
                   <span 
                     className="absolute inline-flex items-center justify-center rounded-full font-bold text-white"
                     style={{
-                      backgroundColor: "#7b5cd6",
+                      backgroundColor: "#cd7f32",
                       width: "clamp(24px, 6vw, 32px)",
                       height: "clamp(24px, 6vw, 32px)",
                       fontSize: "clamp(11px, 2.5vw, 14px)",
@@ -132,18 +120,53 @@ export default function Home() {
                   </span>
                 </div>
                 
-                {/* Top 2 - Derecha (medalla plateada) */}
+                {/* Puesto 4 - Derecha (natalyramirez) */}
                 <div
                   className="absolute"
                   style={{
-                    top: "20%",
-                    right: "9%",
+                    top: "5%",
+                    right: "5%",
+                    width: "28%"
+                  }}
+                >
+                  <img 
+                    src="/3.png" 
+                    alt="Puesto 4 - natalyramirez"
+                    className="relative w-full h-auto"
+                    style={{
+                      objectFit: "cover",
+                      borderRadius: "4px",
+                      aspectRatio: "3/4"
+                    }}
+                  />
+                  <span 
+                    className="absolute inline-flex items-center justify-center rounded-full font-bold text-white"
+                    style={{
+                      backgroundColor: "#cd7f32",
+                      width: "clamp(24px, 6vw, 32px)",
+                      height: "clamp(24px, 6vw, 32px)",
+                      fontSize: "clamp(11px, 2.5vw, 14px)",
+                      top: "-4%",
+                      right: "-4%",
+                      border: "2px solid #fff"
+                    }}
+                  >
+                    4
+                  </span>
+                </div>
+                
+                {/* Puesto 3 - Arriba izquierda (lizarojas) */}
+                <div
+                  className="absolute"
+                  style={{
+                    top: "15%",
+                    left: "8%",
                     width: "22%"
                   }}
                 >
                   <img 
-                    src="/top2.png" 
-                    alt="Top 2"
+                    src="/image (1).png" 
+                    alt="Puesto 3 - lizarojas"
                     className="relative w-full h-auto"
                     style={{
                       objectFit: "cover",
@@ -154,42 +177,7 @@ export default function Home() {
                   <span 
                     className="absolute inline-flex items-center justify-center rounded-full font-bold text-white"
                     style={{
-                      backgroundColor: "#7b5cd6",
-                      width: "clamp(24px, 6vw, 32px)",
-                      height: "clamp(24px, 6vw, 32px)",
-                      fontSize: "clamp(11px, 2.5vw, 14px)",
-                      top: "-4%",
-                      right: "-4%",
-                      border: "2px solid #fff"
-                    }}
-                  >
-                    2
-                  </span>
-                </div>
-                
-                {/* Top 3 - Izquierda (medalla bronce) */}
-                <div
-                  className="absolute"
-                  style={{
-                    top: "14.5%",
-                    left: "8.5%",
-                    width: "24%"
-                  }}
-                >
-                  <img 
-                    src="/3.png" 
-                    alt="Top 3"
-                    className="relative w-full h-auto"
-                    style={{
-                      objectFit: "cover",
-                      borderRadius: "4px",
-                      aspectRatio: "13/18"
-                    }}
-                  />
-                  <span 
-                    className="absolute inline-flex items-center justify-center rounded-full font-bold text-white"
-                    style={{
-                      backgroundColor: "#7b5cd6",
+                      backgroundColor: "#cd7f32",
                       width: "clamp(24px, 6vw, 32px)",
                       height: "clamp(24px, 6vw, 32px)",
                       fontSize: "clamp(11px, 2.5vw, 14px)",
@@ -235,9 +223,6 @@ export default function Home() {
                         NOMBRE
                       </th>
                       <th className="py-3 px-3 text-center text-sm font-bold" style={{ color: "#7b5cd6" }}>
-                        NEGOCIOS QUE APLICAN
-                      </th>
-                      <th className="py-3 px-3 text-center text-sm font-bold" style={{ color: "#7b5cd6" }}>
                         CIERRES
                       </th>
                     </tr>
@@ -245,7 +230,7 @@ export default function Home() {
                   <tbody>
                     {tableData.map((row, index) => (
                       <tr 
-                        key={row.position}
+                        key={`${row.position}-${row.nombre}`}
                         style={{ 
                           backgroundColor: index % 2 === 0 ? "#f5fafa" : "#fff",
                           borderBottom: "2px solid #e0f0f0"
@@ -254,24 +239,15 @@ export default function Home() {
                         <td className="py-4 px-3">
                           <span 
                             className="inline-flex items-center justify-center w-8 h-8 rounded-full font-bold text-white"
-                            style={{ backgroundColor: "#7b5cd6" }}
+                            style={{ 
+                              backgroundColor: row.position <= 4 ? "#cd7f32" : "#7b5cd6"
+                            }}
                           >
                             {row.position}
                           </span>
                         </td>
                         <td className="py-4 px-3" style={{ color: "#333" }}>
                           {row.nombre}
-                        </td>
-                        <td className="py-4 px-3 text-center">
-                          <span 
-                            className="inline-flex items-center justify-center w-10 h-10 rounded-full font-bold text-lg"
-                            style={{ 
-                              backgroundColor: "#7b5cd6",
-                              color: "#fff"
-                            }}
-                          >
-                            {row.negocios}
-                          </span>
                         </td>
                         <td className="py-4 px-3 text-center">
                           <span 
