@@ -120,7 +120,7 @@ export default function Home() {
                   </span>
                 </div>
                 
-                {/* Puesto 5 - Derecha (natalyramirez) */}
+                {/* Puesto 4 - Derecha (natalyramirez) */}
                 <div
                   className="absolute"
                   style={{
@@ -131,7 +131,7 @@ export default function Home() {
                 >
                   <img 
                     src="/3.png" 
-                    alt="Puesto 5 - natalyramirez"
+                    alt="Puesto 4 - natalyramirez"
                     className="relative w-full h-auto"
                     style={{
                       objectFit: "cover",
@@ -151,11 +151,11 @@ export default function Home() {
                       border: "2px solid #fff"
                     }}
                   >
-                    5
+                    4
                   </span>
                 </div>
                 
-                {/* Puesto 6 - Arriba izquierda (lizarojas) */}
+                {/* Puesto 3 - Arriba izquierda (lizarojas) */}
                 <div
                   className="absolute"
                   style={{
@@ -166,7 +166,7 @@ export default function Home() {
                 >
                   <img 
                     src="/image (1).png" 
-                    alt="Puesto 6 - lizarojas"
+                    alt="Puesto 3 - lizarojas"
                     className="relative w-full h-auto"
                     style={{
                       objectFit: "cover",
@@ -186,7 +186,7 @@ export default function Home() {
                       border: "2px solid #fff"
                     }}
                   >
-                    6
+                    3
                   </span>
                 </div>
               </div>
