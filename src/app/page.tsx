@@ -1,22 +1,22 @@
 export default function Home() {
   const tableData = [
-    { position: 3, nombre: "lizarojas@habi.co", cierres: 2 },
     { position: 4, nombre: "erikagonzalez@habi.co", cierres: 2 },
-    { position: 4, nombre: "natalyramirez@habi.co", cierres: 2 },
-    { position: 5, nombre: "yessicasanchez@habi.co", cierres: 1 },
-    { position: 6, nombre: "paolatenorio@habi.co", cierres: 1 },
-    { position: 7, nombre: "nancycadavid@habi.co", cierres: 1 },
-    { position: 8, nombre: "leidygomez@habi.co", cierres: 1 },
-    { position: 9, nombre: "khaterinecanon@habi.co", cierres: 1 },
-    { position: 10, nombre: "juanvanegas@habi.co", cierres: 1 },
-    { position: 11, nombre: "juanrincon@habi.co", cierres: 1 },
-    { position: 12, nombre: "joserios@habi.co", cierres: 1 },
-    { position: 13, nombre: "jeferssonromero@habi.co", cierres: 1 },
-    { position: 14, nombre: "ingriddiaz@habi.co", cierres: 1 },
-    { position: 15, nombre: "geffreyramos@habi.co", cierres: 1 },
-    { position: 16, nombre: "danithmartinez@habi.co", cierres: 1 },
-    { position: 17, nombre: "alexandramurillo@habi.co", cierres: 1 },
-    { position: 18, nombre: "alexanderhernandez@habi.co", cierres: 1 },
+    { position: 5, nombre: "natalyramirez@habi.co", cierres: 2 },
+    { position: 6, nombre: "lizarojas@habi.co", cierres: 2 },
+    { position: 7, nombre: "yessicasanchez@habi.co", cierres: 1 },
+    { position: 8, nombre: "paolatenorio@habi.co", cierres: 1 },
+    { position: 9, nombre: "nancycadavid@habi.co", cierres: 1 },
+    { position: 10, nombre: "leidygomez@habi.co", cierres: 1 },
+    { position: 11, nombre: "khaterinecanon@habi.co", cierres: 1 },
+    { position: 12, nombre: "juanvanegas@habi.co", cierres: 1 },
+    { position: 13, nombre: "juanrincon@habi.co", cierres: 1 },
+    { position: 14, nombre: "joserios@habi.co", cierres: 1 },
+    { position: 15, nombre: "jeferssonromero@habi.co", cierres: 1 },
+    { position: 16, nombre: "ingriddiaz@habi.co", cierres: 1 },
+    { position: 17, nombre: "geffreyramos@habi.co", cierres: 1 },
+    { position: 18, nombre: "danithmartinez@habi.co", cierres: 1 },
+    { position: 19, nombre: "alexandramurillo@habi.co", cierres: 1 },
+    { position: 20, nombre: "alexanderhernandez@habi.co", cierres: 1 },
   ];
 
   return (
@@ -120,7 +120,7 @@ export default function Home() {
                   </span>
                 </div>
                 
-                {/* Puesto 4 - Derecha (natalyramirez) */}
+                {/* Puesto 5 - Derecha (natalyramirez) */}
                 <div
                   className="absolute"
                   style={{
@@ -131,7 +131,7 @@ export default function Home() {
                 >
                   <img 
                     src="/3.png" 
-                    alt="Puesto 4 - natalyramirez"
+                    alt="Puesto 5 - natalyramirez"
                     className="relative w-full h-auto"
                     style={{
                       objectFit: "cover",
@@ -151,11 +151,11 @@ export default function Home() {
                       border: "2px solid #fff"
                     }}
                   >
-                    4
+                    5
                   </span>
                 </div>
                 
-                {/* Puesto 3 - Arriba izquierda (lizarojas) */}
+                {/* Puesto 6 - Arriba izquierda (lizarojas) */}
                 <div
                   className="absolute"
                   style={{
@@ -166,7 +166,7 @@ export default function Home() {
                 >
                   <img 
                     src="/image (1).png" 
-                    alt="Puesto 3 - lizarojas"
+                    alt="Puesto 6 - lizarojas"
                     className="relative w-full h-auto"
                     style={{
                       objectFit: "cover",
@@ -186,7 +186,7 @@ export default function Home() {
                       border: "2px solid #fff"
                     }}
                   >
-                    3
+                    6
                   </span>
                 </div>
               </div>
@@ -240,7 +240,7 @@ export default function Home() {
                           <span 
                             className="inline-flex items-center justify-center w-8 h-8 rounded-full font-bold text-white"
                             style={{ 
-                              backgroundColor: row.position <= 4 ? "#cd7f32" : "#7b5cd6"
+                              backgroundColor: "#7b5cd6"
                             }}
                           >
                             {row.position}
